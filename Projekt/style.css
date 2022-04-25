@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Quicksand&display=swap');
+
+
+html
+{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(66, 66, 193);
+    font-size: 18px;
+}
+
+.navbar-main {
+    background-color: rgb(82, 79, 79);
+    display:flex;
+    justify-content: center;
+    padding:0.5rem;
+    margin-bottom:20px;
+}
+
+.navbar-main a {
+    color:rgba(255, 255, 0, 0.844);
+    text-decoration:none;
+    transition: 1s ease;
+    margin:15px;
+}
+
+.navbar-main a:hover {
+    color:red;
+}
+
+.footer-main {
+    background-color:rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.footer-main a {
+    color: white;
+    text-decoration:none;
+    transition: 1s ease;
+    margin:15px;
+}
