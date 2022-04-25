@@ -15,8 +15,21 @@
     getNav();
     ?>
 
-<main>
-Content Is here!
+<main style="display:flex">
+<div style="width:20vw;padding:10px">
+<p>Das ist toller Content und du hast echt etwas gemacht.
+Für das nächste Mal gibst du dir aber bitte ein mehr Mühe.
+Vielen Dank!
+<p>
+<br>
+Das ist toller Content und du hast echt etwas gemacht.
+Für das nächste Mal gibst du dir aber bitte ein mehr Mühe.
+Vielen Dank!
+</div>
+<div style="width:80vw;padding:10px">
+<img src="https://www.cmsdrupal.com/static/c26fcd13e536c4281d4bfe14df52a551/6a8a9/html5-cool-things-you-can-do.jpg" style="width:25vw;margin-left:20px" alt="Italian Trulli">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/640px-PHP-logo.svg.png" style="width:25vw;margin-left:20px" alt="Italian Trulli">
+</div>
 </main>
 
 <?php

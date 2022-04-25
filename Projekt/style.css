@@ -4,7 +4,7 @@
 html
 {
     font-family: 'Quicksand', sans-serif;
-    color: rgb(66, 66, 193);
+    color: black;
     font-size: 18px;
 }
 
@@ -35,8 +35,13 @@ html
 }
 
 .footer-main a {
-    color: white;
-    text-decoration:none;
+    color:blueviolet;
     transition: 1s ease;
     margin:15px;
+    text-decoration:none;
+}
+
+.footer-main a:hover {
+    color: white;
+    text-decoration: underline;
 }
